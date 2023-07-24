@@ -1,0 +1,40 @@
+.no_auth_theme {
+  background-image: url("../assets/bg.jpg");
+  /* background-repeat: repeat; */
+  width: 100%;
+  height: 100%;
+}
+
+.auth_sections {
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_header {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.login_image {
+  height: 500px;
+}
+
+.left_section {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+.right_section {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
